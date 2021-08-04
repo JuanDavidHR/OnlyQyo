@@ -17,13 +17,36 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.davidhuaman.onlyqyo",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.788526537732-m6a7n8b2sm0a4qtp051p8d0sj9d1ki6e"
+        }
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.davidhuaman.onlyqyo",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDz5sP1cABFo-MSU9gZw22oTZY_Fz7tmoA"
+        }
+      },
+      "permissions": [
+        "CAMERA_ROLL",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"

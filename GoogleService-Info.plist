@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>788526537732-m6a7n8b2sm0a4qtp051p8d0sj9d1ki6e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.788526537732-m6a7n8b2sm0a4qtp051p8d0sj9d1ki6e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC8r227ahynAMAfRQ6wP0M-UMyHvV6qNd4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>788526537732</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.davidhuaman.onlyqyo</string>
+	<key>PROJECT_ID</key>
+	<string>sinnombrev01</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sinnombrev01.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:788526537732:ios:cd50cd890b6e0d1da4e951</string>
+	<key>DATABASE_URL</key>
+	<string>https://sinnombrev01-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
