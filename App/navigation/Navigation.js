@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Icon } from "react-native-elements"
 import AccountStack from "../navigation/AccountStack";
 import RoboVehiculoStack from "../navigation/RoboVehiculoStack";
+import ReporteGeneralStack from "../navigation/ReporteGeneralStack";
 import BuscarObjetoStack from "../navigation/BuscarObjetoStack";
 import BuscarPersonaStack from "../navigation/BuscarPersonaStack";
 import EstadisticaStack from "../navigation/EstadisticaStack";
@@ -22,10 +23,15 @@ export default function Navigation(){
                     tabBarIcon:({ color }) => screenOptions(route,color)
                 })}
             >
-                <Tab.Screen 
+                {/* <Tab.Screen 
                     name="roboVehiculos" 
                     component={RoboVehiculoStack}
                     options={{ title:"RoboVehiculo" }}    
+                /> */}
+                <Tab.Screen 
+                    name="reporte-general" 
+                    component={ReporteGeneralStack}
+                    options={{ title:"Reportes" }}    
                 />
                 <Tab.Screen 
                     name="buscar-personas" 
@@ -56,7 +62,7 @@ function screenOptions(route,color){
     let iconName;
 
     switch (route.name) {
-        case "roboVehiculos":
+        case "reporte-general":
             iconName="compass-outline"
             break;
         case "buscar-personas":
